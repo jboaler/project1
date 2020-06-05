@@ -5,11 +5,36 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
     </head>
     <body>
+        <h1>Email sign-up form</h1>
         <nav>
             <a href="Project 1 Homepage.html">Homepage</a>
             <a href="Project 1 Species Profile.html">Species Profiles</a>
         </nav>
-        <h1>Sign-up form</h1>
+        <p>
+            Please enter all pertinent information below to be registered in our AIS email list which includes information on meetups, new infestations,and links to new articles and videos! 
+        </p>
+        <form>
+            <fieldset>
+                <legend>First name</legend>
+                    <input type="text" placeholder="First name" required="required" />
+                <legend>Last name</legend>
+                    <input type="text" placeholder="Last name" />
+                <legend>Email address</legend>
+                    <input type="email" placeholder="Email address" required="required" />
+                <legend>Sex</legend>
+                <select>
+                   <option value="Man">Male</option>
+                   <option value="Woman">Female</option>
+                   <option value="Declined">Prefer not to say</option>
+               </select>
+               <button>Submit!</button>
+            </fieldset>
+        </form>
+        
+        <footer>
+            All images and information contained in this page are subject to change by their respective authors.
+        </footer>
+        
 
     </body>
 </html>
