@@ -6,3 +6,30 @@ h1 {
 p{
     font-size: x-large;
 }
+
+body {
+    background-color: #008080;
+}
+
+img.mussel1 {
+    max-height: 15%;
+    max-width: 15%;
+}
+
+img.mussel2 {
+    max-height: 15%;
+    max-width: 30%;
+}
+
+img.mussel3 {
+    max-height: 10%;
+    max-width: 15%;
+}
+
+
+
+
+hr {
+    height: 2px;
+    background-color: black;
+}
