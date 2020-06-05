@@ -36,6 +36,16 @@ img.hyacinth2 {
     max-width: 30%;
 }
 
+img.hydrilla1 {
+    max-height: 30%;
+    max-width: 30%;
+}
+
+img.hydrilla2 {
+    max-height: 20%;
+    max-width: 20%;
+}
+
 hr {
     height: 2px;
     background-color: black;
