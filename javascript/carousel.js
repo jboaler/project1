@@ -1,2 +1,2 @@
 
-var mainImage = document.getElementById
+
