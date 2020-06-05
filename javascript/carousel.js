@@ -1,0 +1,2 @@
+
+var mainImage = document.getElementById
