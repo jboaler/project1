@@ -12,6 +12,8 @@ p{
 
 body {
     background-color: #008080;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 header {
@@ -19,7 +21,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 80px;
+    height: 60px;
     display: flex;
     align-items: center;
 }
@@ -65,6 +67,16 @@ img.hydrilla1 {
 img.hydrilla2 {
     max-height: 20%;
     max-width: 20%;
+}
+
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+  }
+
+div > h2  {
+    text-align: center;
+    color: #8b0000;
 }
 
 hr {
