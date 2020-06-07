@@ -7,8 +7,8 @@ h1 {
 p{
     font-size: large;
     text-align: left;
+    
 }
-
 
 body {
     background-color: #008080;
@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-color: #d3d3d3;
+    background-color: #C0C0C0;
     top: 0;
     left: 0;
     right: 0;
@@ -32,6 +32,19 @@ header * {
 
 header li {
     margin: 20px;
+    padding-left: 210px;
+}
+
+a {
+    color: #7a0606;
+}
+
+  a:visited {
+    color: #636;
+ }
+
+  a:hover, a:active, a:focus {
+    color:rgb(193, 245, 6);
 }
 
 img.mussel1 {
@@ -55,8 +68,8 @@ img.hyacinth1 {
 }
 
 img.hyacinth2 {
-    max-height: 30%;
-    max-width: 30%;
+    max-height: 20%;
+    max-width: 26%;
 }
 
 img.hydrilla1 {
@@ -66,7 +79,7 @@ img.hydrilla1 {
 
 img.hydrilla2 {
     max-height: 20%;
-    max-width: 20%;
+    max-width: 21%;
 }
 
 .carousel-inner > .item > img {
@@ -76,7 +89,11 @@ img.hydrilla2 {
 
 div > h2  {
     text-align: center;
-    color: #8b0000;
+    color: #b30606;
+}
+
+.centered {
+    text-align: center;
 }
 
 hr {
